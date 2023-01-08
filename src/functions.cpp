@@ -83,7 +83,7 @@ Character diceRollForStats(Character *charPtr)
         //cin.ignore();
         testRoller[i].setAttRollMinusLow();
         cout << "Att. Points for Roll# " << i+1 << ": " << testRoller[i].getAttributePoints() << endl;
-        Sleep(1000);
+        sleep(1);
     }
     cout << "\n\n";
 

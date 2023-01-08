@@ -15,7 +15,8 @@ version num: 0.4
 #include "Race.h"
 #include "Functions.h"
 #include <new>
-#include <windows.h>
+// #include <windows.h>
+#include <unistd.h> 
 
 #define NUM_ATTS 6
 
