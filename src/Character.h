@@ -53,16 +53,12 @@ class Character:public Job, public Race
         double getInt();
         double getWis();
         double getPer();
-//        int getExportCount() const
-//            {return charExportCount;}
 
         // Methods
         string printCharInfo();//formatted for a user to read in console
         string printCharInfo(string);//charName, same format as no param but prints to file
         string exportCharInfo();//fileName, format designed for ease of reading by another program
         void assignAttPoints(int,int,int,int,int,int);//const,str,dex,int,wis,per
-
-
 
     private:
         string race;
@@ -74,11 +70,6 @@ class Character:public Job, public Race
         double intelligence;
         double wisdom;
         double perception;
-
-        // Static member variable
-        //static int charExportCount;
 };
-
-//int Character::charExportCount = 0;
 
 #endif // CHARACTER_H

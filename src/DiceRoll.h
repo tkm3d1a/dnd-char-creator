@@ -17,9 +17,10 @@ class DiceRoll
         int getAttributePoints();
 
         //Methods
-        void setAttRollMinusLow(); // Rolls NUM_ROLLS dice of size DICE_SIZE
-                                   // then subtracts the lowest roll.  Sets AttPoints
-                                   // to equal the total of the remaining dice
+        void setAttRollMinusLow(); 
+        // Rolls NUM_ROLLS dice of size DICE_SIZE
+        // then subtracts the lowest roll.  Sets AttPoints
+        // to equal the total of the remaining dice
 
     private:
         int AttPoints;
